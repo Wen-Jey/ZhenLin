@@ -1,0 +1,261 @@
+.vditor-reset {
+  font-size: 14px;
+  line-height: 2;
+  height: auto;
+}
+
+.vditor-reset hr {
+  clear: both;
+  height: 1px;
+  margin: 56px 0;
+  background: #f0f0f0;
+  border: 0;
+}
+
+.vditor-reset p,
+.vditor-reset pre {
+  margin: 15px 0;
+}
+.vditor-reset p.bg {
+  margin: 20px 0;
+}
+
+.vditor-reset ul > li {
+  margin-left: 20px;
+  padding-left: 4px;
+  list-style-type: circle;
+}
+
+.vditor-reset ol > li {
+  margin-left: 20px;
+  padding-left: 4px;
+  list-style-type: decimal;
+}
+
+.vditor-reset ul > li > p,
+.vditor-reset ol > li > p {
+  margin: 0.2em 0;
+}
+
+.vditor-reset code {
+  margin: 0 1px;
+  padding: 5px 10px;
+  font-size: 15px;
+  border-radius: 3px;
+  border: 1px solid #f0f0f0;
+  font-family: sfmono-regular, Consolas, liberation mono, Menlo, Courier, monospace;
+  max-height: unset !important;
+}
+
+.vditor-reset code:not(.hljs):not(.highlight-chroma) {
+  background: #f2f4f5;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.vditor-reset pre {
+  position: relative;
+  font-family: sfmono-regular, Consolas, liberation mono, Menlo, Courier, monospace;
+  z-index: 2;
+  border-radius: 2px;
+}
+
+.vditor-reset .language-abc svg,
+.vditor-reset .language-abc path {
+  fill: currentColor;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.vditor-reset .language-graphviz polygon {
+  fill: transparent;
+}
+
+.vditor-reset strong,
+.vditor-reset b {
+  font-weight: 500;
+}
+
+.vditor-reset > table {
+  width: 100%;
+  margin: 8px 0 16px;
+  direction: ltr;
+  empty-cells: show;
+  border: 1px solid #f0f0f0;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.vditor-reset > table th {
+  color: #5c6b77;
+  font-weight: 500;
+  white-space: nowrap;
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.vditor-reset > table th,
+.vditor-reset > table td {
+  padding: 16px 24px;
+  text-align: left;
+  border: 1px solid #f0f0f0;
+}
+
+.vditor-reset blockquote {
+  margin: 1em 0;
+  padding-left: 0.8em;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 90%;
+  border-left: 4px solid #f0f0f0;
+}
+
+.vditor-reset blockquote p {
+  margin: 0;
+}
+
+.vditor-reset .vditor-anchor {
+  margin-left: 8px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.vditor-reset h1:hover .vditor-anchor,
+.vditor-reset h2:hover .vditor-anchor,
+.vditor-reset h3:hover .vditor-anchor,
+.vditor-reset h4:hover .vditor-anchor,
+.vditor-reset h5:hover .vditor-anchor,
+.vditor-reset h6:hover .vditor-anchor {
+  display: inline-block;
+  opacity: 1;
+}
+
+.vditor-reset > br,
+.vditor-reset > p > br {
+  clear: both;
+}
+
+.vditor-reset a,
+.vditor-ir__link {
+  color: #3491fa;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 10 !important;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: black;
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-variable {
+  color: #008000;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-built_in,
+.hljs-name,
+.hljs-tag {
+  color: #00f;
+}
+
+.hljs-string,
+.hljs-title,
+.hljs-section,
+.hljs-attribute,
+.hljs-literal,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-type,
+.hljs-addition {
+  color: #a31515;
+}
+
+.hljs-deletion,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-meta {
+  color: #2b91af;
+}
+
+.hljs-doctag {
+  color: #808080;
+}
+
+.hljs-attr {
+  color: #f00;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link {
+  color: #00b0e8;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.outline {
+  padding: 10px;
+  line-height: 30px;
+  border-bottom: 1px dashed #a2a6b4;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #a2a6b4;
+}
+.outline_box {
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+  position: relative;
+  padding-left: 5px;
+}
+
+.outline_box ul span {
+  margin: 3px 0;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 28px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.outline_box ::marker {
+  display: none;
+  width: 0;
+}
+
+.outline_box ul ul span {
+  padding-left: 20px;
+}
+
+.outline_box ul ul ul span {
+  padding-left: 30px;
+}
+
+.outline_box ul span span {
+  margin: 0;
+  padding: 0;
+  color: #a2a6b4;
+  font-size: 14px;
+}
+
+.outline_box .outcheck {
+  background: #fff;
+  border-radius: 6px;
+}
+.outline_box .outcheck span {
+  padding-left: 5px;
+  font-weight: 900;
+  color: #1d2129;
+}
