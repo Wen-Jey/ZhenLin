@@ -13,7 +13,7 @@
       <a href="https://github.com/Wen-Jey" target="_blank"> <i>&#xF019;</i>仓库</a>
       <NuxtLink to="/page/msg"> <i>&#xF020;</i>留言</NuxtLink>
     </div>
-    <div class="fr flk kc"><NuxtLink class="kc" href="/">&#xF015; MEBUGS</NuxtLink></div>
+    <div class="fr flk kc"><NuxtLink class="kc" href="/">&#xF015; WenJay(ZhenLin)</NuxtLink></div>
   </div>
 </template>
 

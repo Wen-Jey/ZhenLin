@@ -50,8 +50,6 @@ TRUNCATE TABLE response_code;
  * 响应码常量
  * 具体文言维护在数据库，但编码需要在此处维护，提高代码可读性
  *
- * @author 米虫丨www.mebugs.com
- * @since 2023-07-21
  */
 
 const (
