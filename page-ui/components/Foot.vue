@@ -1,6 +1,6 @@
 <template>
   <div class="f">
-    <div class="fr flk"><a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备20039109号</a></div>
+    <div class="fr flk"><a href="https://beian.miit.gov.cn/" target="_blank">青ICP备2025005487号</a></div>
     <div class="fr flk">
       <a v-for="item in resData" :href="item.url" target="_blank">{{ item.title }}</a>
       <NuxtLink class="bt" to="/page/link">#更多</NuxtLink>

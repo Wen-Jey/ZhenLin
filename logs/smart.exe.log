@@ -253,3 +253,29 @@ Work Dir:	 D:/WenJay/admin
 [1;34m2025-11-21 14:41:37.189[0m [1;36mMMJEBZTGIS[0m [1;32minfo [0m src/router/middleware/worker/req.go:19 [1;32m|[0m Req Path Is : /blog/tag/list
 [1;34m2025-11-21 14:41:37.190[0m [1;36mMMJEBZTGIS[0m [1;32minfo [0m src/router/middleware/worker/req.go:94 [1;32m|[0m Req Body Is : Do Not Print
 [1;34m2025-11-21 14:41:37.191[0m [1;36mMMJEBZTGIS[0m [1;32minfo [0m src/router/middleware/worker/res.go:39 [1;32m|[0m Res Code Is : 200 . Res Body Is : Do Not Print . S000
+[1;34m2025-11-21 15:23:14.954[0m [1;36mAPP01INIT[0m [1;32minfo [0m src/common/model/cacheModel/blog_lists_cache.go:148 [1;32m|[0m Start SyncBlogPostAllCache
+[1;34m2025-11-21 15:23:14.955[0m [1;36mAPP01INIT[0m [1;32minfo [0m src/common/model/cacheModel/blog_lists_cache.go:577 [1;32m|[0m UpdatePostDataBatch Done 
+[1;34m2025-11-21 15:23:14.956[0m [1;36mAPP01INIT[0m [1;32minfo [0m src/common/model/cacheModel/blog_lists_cache.go:150 [1;32m|[0m End SyncBlogPostAllCache
+[1;34m2025-11-21 16:23:14.958[0m [1;36mAPP01INIT[0m [1;32minfo [0m src/common/model/cacheModel/blog_lists_cache.go:148 [1;32m|[0m Start SyncBlogPostAllCache
+[1;34m2025-11-21 16:23:14.962[0m [1;36mAPP01INIT[0m [1;32minfo [0m src/common/model/cacheModel/blog_lists_cache.go:577 [1;32m|[0m UpdatePostDataBatch Done 
+[1;34m2025-11-21 16:23:14.964[0m [1;36mAPP01INIT[0m [1;32minfo [0m src/common/model/cacheModel/blog_lists_cache.go:150 [1;32m|[0m End SyncBlogPostAllCache
+[1;34m2025-11-21 17:23:14.964[0m [1;36mAPP01INIT[0m [1;32minfo [0m src/common/model/cacheModel/blog_lists_cache.go:148 [1;32m|[0m Start SyncBlogPostAllCache
+[1;34m2025-11-21 17:23:14.965[0m [1;36mAPP01INIT[0m [1;32minfo [0m src/common/model/cacheModel/blog_lists_cache.go:577 [1;32m|[0m UpdatePostDataBatch Done 
+[1;34m2025-11-21 17:23:14.971[0m [1;36mAPP01INIT[0m [1;32minfo [0m src/common/model/cacheModel/blog_lists_cache.go:150 [1;32m|[0m End SyncBlogPostAllCache
+[1;34m2025-11-21 18:23:14.971[0m [1;36mAPP01INIT[0m [1;32minfo [0m src/common/model/cacheModel/blog_lists_cache.go:148 [1;32m|[0m Start SyncBlogPostAllCache
+[1;34m2025-11-21 18:23:14.972[0m [1;36mAPP01INIT[0m [1;32minfo [0m src/common/model/cacheModel/blog_lists_cache.go:577 [1;32m|[0m UpdatePostDataBatch Done 
+[1;34m2025-11-21 18:23:14.974[0m [1;36mAPP01INIT[0m [1;32minfo [0m src/common/model/cacheModel/blog_lists_cache.go:150 [1;32m|[0m End SyncBlogPostAllCache
+[1;34m2025-11-21 19:23:14.976[0m [1;36mAPP01INIT[0m [1;32minfo [0m src/common/model/cacheModel/blog_lists_cache.go:148 [1;32m|[0m Start SyncBlogPostAllCache
+[1;34m2025-11-21 19:23:14.978[0m [1;36mAPP01INIT[0m [1;32minfo [0m src/common/model/cacheModel/blog_lists_cache.go:577 [1;32m|[0m UpdatePostDataBatch Done 
+[1;34m2025-11-21 19:23:15.022[0m [1;36mAPP01INIT[0m [1;32minfo [0m src/common/model/cacheModel/blog_lists_cache.go:150 [1;32m|[0m End SyncBlogPostAllCache
+[1;34m2025-11-21 20:23:15.022[0m [1;36mAPP01INIT[0m [1;32minfo [0m src/common/model/cacheModel/blog_lists_cache.go:148 [1;32m|[0m Start SyncBlogPostAllCache
+[1;34m2025-11-21 20:23:15.023[0m [1;36mAPP01INIT[0m [1;32minfo [0m src/common/model/cacheModel/blog_lists_cache.go:577 [1;32m|[0m UpdatePostDataBatch Done 
+[1;34m2025-11-21 20:23:15.026[0m [1;36mAPP01INIT[0m [1;32minfo [0m src/common/model/cacheModel/blog_lists_cache.go:150 [1;32m|[0m End SyncBlogPostAllCache
+[1;34m2025-11-21 21:23:15.026[0m [1;36mAPP01INIT[0m [1;32minfo [0m src/common/model/cacheModel/blog_lists_cache.go:148 [1;32m|[0m Start SyncBlogPostAllCache
+[1;34m2025-11-21 21:23:15.027[0m [1;36mAPP01INIT[0m [1;32minfo [0m src/common/model/cacheModel/blog_lists_cache.go:577 [1;32m|[0m UpdatePostDataBatch Done 
+[1;34m2025-11-21 21:23:15.029[0m [1;36mAPP01INIT[0m [1;32minfo [0m src/common/model/cacheModel/blog_lists_cache.go:150 [1;32m|[0m End SyncBlogPostAllCache
+[1;34m2025-11-21 22:23:15.029[0m [1;36mAPP01INIT[0m [1;32minfo [0m src/common/model/cacheModel/blog_lists_cache.go:148 [1;32m|[0m Start SyncBlogPostAllCache
+[1;34m2025-11-21 22:23:15.031[0m [1;36mAPP01INIT[0m [1;32minfo [0m src/common/model/cacheModel/blog_lists_cache.go:577 [1;32m|[0m UpdatePostDataBatch Done 
+[1;34m2025-11-21 22:23:15.035[0m [1;36mAPP01INIT[0m [1;32minfo [0m src/common/model/cacheModel/blog_lists_cache.go:150 [1;32m|[0m End SyncBlogPostAllCache
+[1;34m2025-11-21 23:16:18.684[0m [1;36mAPP01INIT[0m [1;31merror[0m main.go:50 [1;32m|[0m Server Get a signal terminated, Stop the consume process
+[1;34m2025-11-21 23:16:18.685[0m [1;36mAPP01INIT[0m [1;31merror[0m main.go:37 [1;32m|[0m Server Listening on port :8000 . Err http: Server closed

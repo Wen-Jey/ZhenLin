@@ -7,15 +7,6 @@ import (
 	"encoding/base64"
 )
 
-/**
- *
- * AES加解密工具类
- * 使用AES-128-CBC加密模式，key需要为16位。
- * key 由方法传入(生成估计16位的随机数）
- *
- * @author 米虫丨www.mebugs.com
- * @since 2022-08-24
- */
 var iv = []byte("AES_SiteOL_Stone")
 
 // AESEncrypt 加密工具

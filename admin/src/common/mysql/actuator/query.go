@@ -13,9 +13,6 @@ import (
  * MYSQL 查询SQL生成器
  * 调用方式1：InitQuery(tabelName).Like("name", req.Name).Eq("service_code", req.ServiceCode).Desc("id").LimitByPage(req.Current, req.PageSize)
  * 调用方式2：TODO 反射处理，传入InterFace，需要指定字段名和操作方式（推荐简单的查询结构使用）
- *
- * @author 米虫丨www.mebugs.com
- * @since 2023-07-06
  */
 
 // MySQL 查询器

@@ -1,8 +1,8 @@
 <template>
   <div id="lmu" class="ll">
     <NuxtLink v-ripples class="llg" href="/">
-      <img src="/static/img/logo.png" />
-      <h1>MEBUGS</h1>
+      <img src="/static/img/touxiang.jpg" />
+      <h1>ZhenLin(Wen-jay)</h1>
     </NuxtLink>
     <div class="lmn">
       <NuxtLink v-ripples :class="{ hv: route.path == '/' }" to="/">首页</NuxtLink>
@@ -16,7 +16,7 @@
   <div class="tp">
     <div class="tbt"><i v-ripples class="bz" @click="openMenu">&#xF031;</i></div>
     <div class="tcen">
-      <NuxtLink v-ripples href="/"><img src="/static/img/logo.png" /> <span>MEBUGS</span></NuxtLink>
+      <NuxtLink v-ripples href="/"><img src="/static/img/touxiang.jpg" /> <span>ZhenLin(WenJay)</span></NuxtLink>
     </div>
     <div class="tbt"><i v-if="route.path.includes('/post/') && width < 1060" v-ripples @click="openDh" class="bz">&#xF001;</i></div>
   </div>
